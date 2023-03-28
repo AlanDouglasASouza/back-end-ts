@@ -1,0 +1,33 @@
+{
+    "name": "back-end-ts",
+    "version": "1.0.0",
+    "description": "Repositório com exemplo de aplicação back end em TypeScript para turma Hopper da Alpha.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon",
+        "build": "npx tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "pg": "^8.10.0",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "@types/cookie-parser": "^1.4.3",
+        "@types/cors": "^2.8.13",
+        "@types/dotenv": "^8.2.0",
+        "@types/express": "^4.17.17",
+        "@types/node": "^18.15.10",
+        "@types/pg": "^8.6.6",
+        "@types/uuid": "^9.0.1",
+        "nodemon": "^2.0.22",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.2"
+    }
+}
